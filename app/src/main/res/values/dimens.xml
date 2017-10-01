@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_margin_min">2dp</dimen>
+    <dimen name="common_margin_little">5dp</dimen>
+    <dimen name="common_margin_small">7dp</dimen>
+    <dimen name="common_margin_middle">10dp</dimen>
+    <dimen name="common_margin_large">15dp</dimen>
+    <dimen name="common_margin_xlarge">20dp</dimen>
+    <dimen name="common_margin_xxlarge">30dp</dimen>
+    <dimen name="common_margin_xxxlarge">40dp</dimen>
+</resources>
