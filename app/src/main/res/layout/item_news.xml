@@ -1,11 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="100dp"
     android:background="@color/white"
     android:gravity="center_vertical"
     android:orientation="horizontal"
     android:padding="@dimen/common_margin_small">
+
+    <com.gavin.android_http.widgets.ShapedImageView
+        android:id="@+id/iv_home_bar_cover"
+        style="@style/CommonMiddleAvatar"
+        android:scaleType="centerCrop"
+        app:round_radius="5dp"
+        app:shape_mode="round_rect" />
+
+    <LinearLayout
+        style="@style/VerticalLayout"
+        android:layout_height="match_parent">
+
+        <LinearLayout style="@style/HorizontalLayout">
+            <TextView
+                android:id="@+id/tv_book_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:text="我和天师有个约会"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_book_item_center"
+            style="@style/HorizontalLayout"
+            android:layout_marginTop="@dimen/common_margin_small">
+
+            <TextView
+                android:id="@+id/tv_item_author"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="10dp"
+                android:text="JellyBean"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_item_date"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="10dp"
+                android:text="2017-08-12"
+                android:layout_weight="1"
+                 />
+        </LinearLayout>
+    </LinearLayout>
 
 
 </LinearLayout>
